@@ -1,0 +1,57 @@
+/*
+  --forest-green-traditional: #003d00;
+  --forest-green-crayola: #4da167;
+  --independence: #59546c;
+  --vivid-sky-blue: #49c6e5;
+  #ebebeb
+*/
+
+body {
+  margin: 0;
+  background-image: linear-gradient(#4da167, #003d00);
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.placeholder__logo img {
+  width: 3rem;
+}
+
+.placeholder {
+  padding: 1rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  color: #ebebeb;
+}
+
+.placeholder__title {
+  font-family: "Playfair Display", serif;
+  font-size: 4rem;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.placeholder__text {
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.placeholder__iconSection {
+  display: flex;
+}
+
+.placeholder__icons {
+  color: #ebebeb;
+  width: 2rem;
+  max-width: 2rem;
+  max-height: 2rem;
+  margin: 50px 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
